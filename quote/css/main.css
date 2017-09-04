@@ -1,0 +1,35 @@
+html {
+  background: url(https://c1.staticflickr.com/4/3868/15020029145_549874ace8_b.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+	color: blue;
+}
+
+button {
+	margin: 3px;
+}
+
+h1 {
+  font-family: 'Cookie', cursive;
+  text-align: center;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.middle{
+	display: flex;
+	flex-direction: column;
+	margin-top: 25%;
+}
+
+#quoteScreen {
+	margin-bottom: 5%;
+	text-align: center;
+}
+
