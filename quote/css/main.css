@@ -2,7 +2,7 @@ html {
   background: url(https://c1.staticflickr.com/4/3868/15020029145_549874ace8_b.jpg) no-repeat center center fixed;
   background-size: cover;
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Josefin Slab', serif;
 }
 
 a {
@@ -16,6 +16,7 @@ button {
 h1 {
   font-family: 'Cookie', cursive;
   text-align: center;
+  font-size: 300%;
 }
 
 .buttons {
@@ -25,11 +26,17 @@ h1 {
 .middle{
 	display: flex;
 	flex-direction: column;
-	margin-top: 25%;
+	justify-content: center;
+	margin: 20% auto 10% auto;
+	max-width: 80%;
+}
+
+#makequote {
+	margin-bottom: 2%;
 }
 
 #quoteScreen {
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	text-align: center;
 }
 
