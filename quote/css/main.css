@@ -9,6 +9,10 @@ a {
 	color: blue;
 }
 
+body {
+	margin: 0;
+}
+
 button {
 	margin: 3px;
 }
@@ -19,16 +23,23 @@ h1 {
   font-size: 300%;
 }
 
+h2,h3 {
+	text-align: left;
+}
+
 .buttons {
+	height: 200px;
+	padding-top: 30%;
+	position: relative;
+	margin: 0 auto;
 	text-align: center;
 }
 
 .middle{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin: 20% auto 10% auto;
+	height: 40%;
+	margin: 10% 18%;
 	max-width: 80%;
+	position: absolute;
 }
 
 #makequote {
@@ -36,7 +47,9 @@ h1 {
 }
 
 #quoteScreen {
-	margin-bottom: 10%;
+	
+	height: 40%;
+	margin-bottom: 50px;
 	text-align: center;
 }
 
